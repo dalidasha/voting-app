@@ -125,7 +125,7 @@ fun VotingDetailScreen(pollId: Int, token: String) {
                             val imageBytes = bos.toByteArray()
                             val voteRequest = VoteRequest(
                                 pollId = pollId,
-                                answerIds = listOf(1) // Replace with actual answer logic
+                                answerIds = listOf(1) 
                             )
 
                             coroutineScope.launch(Dispatchers.IO) {
